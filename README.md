@@ -160,3 +160,8 @@ O53GG4CSJRHEWQT2GJ5HC4CGOM4VKY3SOZGECZ2YNJTXO6LROV3DIR3CK4ZEMWCDHFMTOWSXGRSHU23D
 The problem seems to suggest we should try using cyberchef to repeatedly decrypt from different bases. It turns out that decoding from base 32, then base 58, then base 62, then base 64, and finally base 85 reveals the flag.
 flag: rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
 
+## Pandas Like Salads - 350
+Did you know a new panda was added to the Washington DC zoo recently? Yep, apparently she really like salads. Interesting, yeah? Also, the panda keepers of the zoo said that the key to happiness in life is a little CUTENESS every day. You know, all the keepers who are on the panda's rotation all said the same thing to me. Very interesting.
+
+This one takes a few layers of decryption. To start, we're given a picture of a flag encoded in a pigpen cipher. Decoding this, we get yway{hjkar_qqgdia_unr_kw_yrq_pm_nnfb}. The references to salad, a keyword, and rotation seem to suggest there might be a caesar or vigenere cipher here. After some experimentation, a caesar shift of 21 followed by decoding with a vigenere cipher with keyword "cuteness" seems to give something starting to look like a flag. It turns out that by repeating only part of the word cuteness or repeating it mulptiple times for the keyword, we can reveal a couple of words in the flag at a time.
+flag: rtcp{pandas_should_not_be_put_in_pens}
