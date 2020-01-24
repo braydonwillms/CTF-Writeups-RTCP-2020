@@ -59,6 +59,13 @@ flag: rtcp{uwu_,_1_f0und_y0u}
 The problem contains a box image that, when clicked, call a javascript function spawnCat. This places a cat gif in the browser window. If we take a look at the gif, the flag is split into pieces throughout the file.
 flag: rtcp{k4wA1I_kitT3nz_4_tH3_w1N!!_41232345}
 
+## growls at the chicken
+grrrrrrR
+big chicken, i hisS At you!!!
+
+This one was pretty fun. Given in the problem are an RSA public key, private key, and message. That's straighforward enough, so we decrypt this and get "unknown-123-246-470-726.herokuapp.com" as the message. Going to this URL, we find a page with some talk about a drawer in the console and two strings hidden in the html: "9 20 30 15 16 5 14 19 30 27 29 8 20 13 12 28" and "abcdefghijklmnopqrstuvwxyz[]. ". If we look at the characters in the second string based on the indices in the first, we get the message "it opens [.html]". From this, I took a guess and tried opening drawer.html, which held the flag.
+flag: rtcp{ch1ck3n_4nd_th3_3gg}
+
 # General Skills
 ## Come Eat Grandma 
 Oh, my bad, this spreadsheet appears to be missing its commas.
@@ -126,6 +133,14 @@ tovm{v4T3Ehq_f1oK_3J1e_i4O4}
 
 With this much text, it's likely to be a substitution cipher, and that turns out to be correct. An online decoder can easily solve it.
 flag: RTCP{c4R3Ful_w1tH_3X1f_d4T4}
+
+## notice me senpai
+uwu...senpai placed this note on my desk before class but i cant wead what it says!!!!!! can you hewp me????????? uwu tysm
+
+tlyrc_o_0pnvhu}{137rmi__i_omwm
+
+Looking at this, it seems like it might be some sort of transposition cipher. It turns out to be a rail fence cipher, and the amount of punctuation is a hint about the key. I couldn't quite get it to work, but decrypting with a key of 6 gave me trp{im_1ncl_v3_wi7hoy_ur_mom}0. This was close enough that I managed to rearrange the last few characters.
+flag: rtcp{im_1n_lov3_wi7h_y0ur_mom}
 
 ## Wrong Way
 Did you know that you've been going the wrong way entire time?
