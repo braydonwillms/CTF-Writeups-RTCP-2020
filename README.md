@@ -27,6 +27,13 @@ My friend made this cool remix, and it's pretty good, but everyone says there's 
 We're given an mp3 file. If we use strings on the file, we find the flag in it.
 flag: rtcp{j^cks0n_3ats_r1c3}
 
+# Binary/Excecutable
+## print(f) to Pay Respects - 100
+Lulu recently began to collect rice granules, she needs so many! (like over 9999) Jake says it might be a cure to Lulu's disease. Go help her get enough by throwing rice at the portal, print(f) to pay respects.
+
+There are some program files given here. They turned out to be a pain to set up, so I just used cutter and was able to find the flag in the strings extracted from the dll file.
+flag: rtcp{s0m3t1m35_0n1y_s0m3tImEz_sn^k3z_ar3_u5EfuL}
+
 # Web
 ## Robots. Yeah, I know, pretty obvious. - 25
 So, we know that Delphine is a cook. A wonderful one, at that. But did you know that GIANt used to make robots? Yeah, GIANt robots.
