@@ -100,6 +100,13 @@ I wonder what recipe Delphine and GIANt are making. . .
 We have to search for "holy rice goddess" on github, and find a repository containing the flag.
 flag: rtcp{ju5t_l1k3_gr4ndm45_m34tl04f_1029837} 
 
+## pandamonium - 100
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+91 7 10 D 95 42 28 A 
+
+This is a bit of an obscure cipher. "amonium" in the title seems to be a hint, but I just figured it out by searching with the form of the ciphertext - it turns out this is a periodic table cipher.
+flag: rtcp{PANNED_AMMONIA}
+
 # Cryptography
 ## HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! - 50
 AND JAKE IS ROUNDING THE BASES
