@@ -45,6 +45,12 @@ nyameowmeow nyameow nyanya meow purr nyameowmeow nyameow nyanya meow purr nyameo
 It turns out this is actually morse code. The hint tells us to check the cat-chat channel on the discord, so I encoded rtcp to nyameownya meow meownyameownya nyameowmeownya and found the matching message in the channel. After that, it's just a matter of decoding it.
 flag: rtcp{th15_1z_a_c4t_ch4t_n0t_a_m3m3_ch4t}
 
+## Chugalug's Footpads - 150
+Chugalug makes footpads that he can chug and lug. However, his left one is different from his right... I wonder why?
+
+We are given two jpg files. As the questions suggests, we should look for differences. We can use git diff to see differing data, which contains the flag throughout the file.
+flag: rtcp{T3hze_^r3_n0TcH4nC1a5}
+
 # Binary/Excecutable
 ## print(f) to Pay Respects - 100
 Lulu recently began to collect rice granules, she needs so many! (like over 9999) Jake says it might be a cure to Lulu's disease. Go help her get enough by throwing rice at the portal, print(f) to pay respects.
