@@ -27,6 +27,12 @@ My friend made this cool remix, and it's pretty good, but everyone says there's 
 We're given an mp3 file. If we use strings on the file, we find the flag in it.
 flag: rtcp{j^cks0n_3ats_r1c3}
 
+## cat-chat - 125
+nyameowmeow nyameow nyanya meow purr nyameowmeow nyameow nyanya meow purr nyameowmeow nyanyanyanya nyameow meow purr meow nyanyanyanya nya purr nyanyanyanya nya meownyameownya meownyameow purr nyanya nyanyanya purr meowmeownya meowmeowmeow nyanya meownya meowmeownya purr meowmeowmeow meownya purr nyanyanyanya nya nyameownya nya !!!!
+
+It turns out this is actually morse code. The hint tells us to check the cat-chat channel on the discord, so I encoded rtcp to nyameownya meow meownyameownya nyameowmeownya and found the matching message in the channel. After that, it's just a matter of decoding it.
+flag: rtcp{th15_1z_a_c4t_ch4t_n0t_a_m3m3_ch4t}
+
 # Binary/Excecutable
 ## print(f) to Pay Respects - 100
 Lulu recently began to collect rice granules, she needs so many! (like over 9999) Jake says it might be a cure to Lulu's disease. Go help her get enough by throwing rice at the portal, print(f) to pay respects.
