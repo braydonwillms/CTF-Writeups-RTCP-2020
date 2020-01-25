@@ -33,6 +33,12 @@ My friend made this cool remix, and it's pretty good, but everyone says there's 
 We're given an mp3 file. If we use strings on the file, we find the flag in it.
 flag: rtcp{j^cks0n_3ats_r1c3}
 
+## Allergic College Application - 100
+I was writing my common app essay in Mandarin when my cat got on my lap and sneezed. Being allergic, I sneezed with him, and when I blew my nose into a tissue, the text for my essay turned really weird! Get out, Bad Kitty!
+
+We're given a text file that seems to be garbage. However, some text editors seem to be able to read it. If we look at the github repo for the ctf, it appears as Chinese.
+flag: rtcp{我_只_修改_了_两_次}
+
 ## cat-chat - 125
 nyameowmeow nyameow nyanya meow purr nyameowmeow nyameow nyanya meow purr nyameowmeow nyanyanyanya nyameow meow purr meow nyanyanyanya nya purr nyanyanyanya nya meownyameownya meownyameow purr nyanya nyanyanya purr meowmeownya meowmeowmeow nyanya meownya meowmeownya purr meowmeowmeow meownya purr nyanyanyanya nya nyameownya nya !!!!
 
