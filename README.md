@@ -8,6 +8,12 @@ flags are entered in the format rtcp{flag}
 We basically just have to guess here.
 flag: rtcp{rice_tea_cat_panda}
 
+## Off-Topic - 5
+off-topic
+
+The discord off-topic channel description asks for the name of the catpanda in the server picture. If we look at the picture's alt text on the webpage, the name is "Jubie".
+flag: rtcp{Jubie}
+
 ## A Friend In Need Is A Friend Indeed - 50
 Hm, I see a lot of potential friends in the midst of that discord, but... one is not like the others; maybe I'll slide into their dms and strike up a conversation about passwords!
 
